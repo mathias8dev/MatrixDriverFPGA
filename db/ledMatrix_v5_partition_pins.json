@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "matrix_clock",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_LE",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_OE",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_CBA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_CBA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_CBA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_R1",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_V1",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_B1",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_R2",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_V2",
+					"strict" : false
+				},
+				{
+					"name" : "matrix_B2",
+					"strict" : false
+				},
+				{
+					"name" : "global_AR",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

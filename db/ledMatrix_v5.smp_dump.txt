@@ -1,0 +1,7 @@
+
+State Machine - |ledMatrix|hlsm:hlsm_inst|state
+Name state.FL state.FFL state.CHFL state.ATT 
+state.ATT 0 0 0 0 
+state.CHFL 0 0 1 1 
+state.FFL 0 1 0 1 
+state.FL 1 0 0 1 

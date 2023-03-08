@@ -1,0 +1,70 @@
+# ** Warning: (vsim-12019) Incorrectly (or incompletely) specified option '-l': (Argument '-int' appears to be a simulator switch).
+# vsim -gui -l -int -novopt work.ledmatrix_tb 
+# Start time: 10:06:17 on Feb 10,2023
+# ** Error (suppressible): (vsim-12110) The -novopt option has no effect on this product. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ledMatrix.do PAUSED at line 2
+vsim -gui -l -int -novopt work.ledmatrix_tb
+# ** Warning: (vsim-12019) Incorrectly (or incompletely) specified option '-l': (Argument '-int' appears to be a simulator switch).
+# vsim -gui -l -int -novopt work.ledmatrix_tb 
+# Start time: 10:06:17 on Feb 10,2023
+# ** Error (suppressible): (vsim-12110) The -novopt option has no effect on this product. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ledMatrix.do PAUSED at line 2
+
+quit -sim
+# End time: 10:09:55 on Feb 10,2023, Elapsed time: 0:03:38
+# Errors: 2, Warnings: 2
+restart -f
+# No Design Loaded!
+restart -f
+# No Design Loaded!
+vcom -93 -work work C:/Users/pret/Documents/Code/Electronics/ledMatrix_V5/ledmatrix.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:11:46 on Feb 10,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/pret/Documents/Code/Electronics/ledMatrix_V5/ledmatrix.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Compiling entity ledMatrix
+# -- Compiling architecture struct of ledMatrix
+# End time: 10:11:46 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ledMatrix.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:11:54 on Feb 10,2023
+# vcom -reportprogress 300 -work work C:/Users/pret/Documents/Code/Electronics/ledMatrix_v5/simulation/modelsim/ledMatrix_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Compiling entity ledMatrix_tb
+# -- Compiling architecture arch of ledMatrix_tb
+# End time: 10:11:55 on Feb 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.ledmatrix_tb 
+# Start time: 10:11:55 on Feb 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.ledmatrix_tb(arch)
+# Loading work.ledmatrix(struct)
+# Loading work.redrom(syn)
+# ** Fatal: (vsim-3817) Port "data_a" of entity "redrom" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /ledmatrix_tb/ledMatrix_inst/redROM_inst File: C:/Users/pret/Documents/Code/Electronics/ledMatrix_V5/redROM.vhd Line: 48
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ledMatrix.do PAUSED at line 2
+# End time: 01:20:27 on Feb 11,2023, Elapsed time: 15:08:32
+# Errors: 1, Warnings: 0
